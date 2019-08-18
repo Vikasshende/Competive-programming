@@ -1,4 +1,4 @@
-include <cmath>
+#include <cmath>
 #include <cstdio>
 #include <vector>
 #include <iostream>
@@ -7,7 +7,7 @@ include <cmath>
 
 
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
+    
     int N;
     int query;
     int queryLength;
@@ -18,7 +18,7 @@ int main() {
     std::cin >> N;
 
     std::vector<int> v(N);
-    //populate the vector
+    
      for(int i =0; i<N; i++){
          std::cin >> v[i];
      }
